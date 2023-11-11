@@ -7,13 +7,13 @@ settings:
 dependencies:
   '@hono/firebase-auth':
     specifier: ^1.3.2
-    version: 1.3.2(hono@3.9.0)
+    version: 1.3.2(hono@3.9.2)
   firebase-auth-cloudflare-workers:
     specifier: ^1.0.1
     version: 1.0.1
   hono:
-    specifier: ^3.9.0
-    version: 3.9.0
+    specifier: ^3.9.2
+    version: 3.9.2
 
 devDependencies:
   '@cloudflare/workers-types':
@@ -433,13 +433,13 @@ packages:
       yargs: 17.7.2
     dev: true
 
-  /@hono/firebase-auth@1.3.2(hono@3.9.0):
+  /@hono/firebase-auth@1.3.2(hono@3.9.2):
     resolution: {integrity: sha512-+Nuh2wthssTw+/C0xZ8imkqg2JcVq9y9AoInvnLZtwI3BHhMSRRu9XDS16UUwlD36SPzE6SrdZovQelKfu726g==}
     peerDependencies:
       hono: 3.*
     dependencies:
       firebase-auth-cloudflare-workers: 1.0.1
-      hono: 3.9.0
+      hono: 3.9.2
     dev: false
 
   /@jsdevtools/ono@7.1.3:
@@ -2482,8 +2482,8 @@ packages:
     engines: {node: '>=10.0.0'}
     dev: true
 
-  /hono@3.9.0:
-    resolution: {integrity: sha512-MSGmerYD69jwDkBa631lY7y3xtEwbKFg2huFZ0TruzCdfJlmPd/rFzyvmMheePKsiA7CZp/KqL3mflBOzEmjLA==}
+  /hono@3.9.2:
+    resolution: {integrity: sha512-180NOiMadqU3lGmN6ajPDZvZPWus3a9mtVaAUR9uG0SImngBwRLA8vbnV0oUfUAgFT4nX55sGV9dVA06OuikHA==}
     engines: {node: '>=16.0.0'}
     dev: false
 
