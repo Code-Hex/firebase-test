@@ -1,0 +1,6 @@
+name = "firebase-test"
+main = "src/index.ts"
+compatibility_date = "2023-07-24"
+
+[vars]
+FIREBASE_AUTH_EMULATOR_HOST = "127.0.0.1:9099"
